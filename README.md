@@ -98,6 +98,7 @@ However, the app is flexible and can work with any CSV file containing numeric a
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+@YeswanthSoma All Copyrights Reserved
 
 ## 💎 Acknowledgments
 
