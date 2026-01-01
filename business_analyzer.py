@@ -49,6 +49,7 @@ def generate_visualizations(df):
         st.pyplot(fig)
 # Added comment
 
+# Added comment
 def main():
     st.set_page_config(page_title="Business Data Analyzer", layout="wide")
     st.title("Business Data Analyzer Dashboard")
