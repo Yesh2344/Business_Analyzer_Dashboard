@@ -47,6 +47,7 @@ def generate_visualizations(df):
         sns.heatmap(df[numeric_columns].corr(), annot=True, cmap='coolwarm', ax=ax)
         plt.title('Correlation Heatmap')
         st.pyplot(fig)
+# Added comment
 
 def main():
     st.set_page_config(page_title="Business Data Analyzer", layout="wide")
