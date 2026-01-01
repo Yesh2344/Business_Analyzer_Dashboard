@@ -83,6 +83,7 @@ def main():
             st.header("Data Explorer")
             columns = st.multiselect("Select columns to display", df.columns.tolist(), default=df.columns.tolist()[:5])
             st.write(df[columns])
+# Added comment
 
 if __name__ == "__main__":
     main()
