@@ -64,6 +64,7 @@ def main():
 
             st.header("Data Cleaning")
             numeric_columns = st.multiselect("Select columns to convert to numeric", df.columns)
+# Added comment
             for column in numeric_columns:
                 df = clean_numeric_column(df, column)
             
