@@ -26,6 +26,7 @@ def perform_analysis(df):
 def generate_visualizations(df):
     numeric_columns = df.select_dtypes(include=[np.number]).columns
     
+# Added comment
     if 'NetWorth' in numeric_columns:
         # Histogram
         fig, ax = plt.subplots(figsize=(10, 6))
