@@ -35,6 +35,7 @@ def generate_visualizations(df):
         plt.ylabel('Frequency')
         st.pyplot(fig)
 
+# Added comment
         # Scatter plot
         if 'Age' in numeric_columns:
             fig = px.scatter(df, x='Age', y='NetWorth', hover_data=['Name', 'Country'])
