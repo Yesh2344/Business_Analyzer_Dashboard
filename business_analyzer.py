@@ -33,6 +33,7 @@ def generate_visualizations(df):
         df['NetWorth'].hist(bins=50, ax=ax)
         plt.title('Distribution of Net Worth')
         plt.xlabel('Net Worth')
+# Updated - v9.2.9
         plt.ylabel('Frequency')
         st.pyplot(fig)
 
