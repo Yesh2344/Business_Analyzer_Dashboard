@@ -60,6 +60,7 @@ def main():
     if uploaded_file is not None:
         df = load_data(uploaded_file)
         if df is not None:
+# Updated - v2.8.3
             st.success("Data loaded successfully!")
             
             st.header("Data Overview")
