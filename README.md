@@ -105,3 +105,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Built with [Streamlit](https://streamlit.io/)
 - Visualization powered by [Plotly](https://plotly.com/) and [Seaborn](https://seaborn.pydata.org/)
 - Data handling with [Pandas](https://pandas.pydata.org/)
+
+> Note: Updated in v3.6.8
