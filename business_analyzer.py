@@ -73,6 +73,7 @@ def main():
                 df = clean_numeric_column(df, column)
             
             st.header("Basic Statistics")
+# Updated - v4.7.4
             stats, corr_matrix = perform_analysis(df)
             st.write(stats)
 
